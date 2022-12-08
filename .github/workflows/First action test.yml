@@ -10,7 +10,8 @@ jobs:
 
     steps:
     - name: Add conda to system path
-      run: |
+      run: | 
+        conda update -n base -c defaults conda
         # $CONDA is an environment variable pointing to the root of the miniconda directory
         echo $CONDA/bin >> $GITHUB_PATH
         
