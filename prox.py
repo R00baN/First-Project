@@ -25,7 +25,7 @@ numbers = range(51)
 
 
 def main():
-    print(name + ",what would you like from our menu ?\n\n" + menu, )
+    print(name + ", what would you like from our menu ?\n\n" + menu, )
     while True:
         try:
             global order
@@ -58,7 +58,7 @@ def main():
         print("")
 
     print(
-        "\nsounds good " + name + ", we'll have you that " + order + "ready for you in a moments. \nneed any other "
+        "\nsounds good " + name + ", we'll have you that " + order + "ready for you in a moments \nneed any other "
                                                                      "things ?\n")
 
     while True:
